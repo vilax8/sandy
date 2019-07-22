@@ -33,5 +33,21 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+  </build><distributionManagement>
+
+<repository>
+<id>jenkins</id>
+<name>Maven</name>
+        <url>http://52.66.238.188:8081/nexus/content/repositories/jenkins/</url>
+</repository</>
+
+<snapshotRepository>
+<id>jenkinslog</id>
+<name>Maven2snap</name>
+<url>http://52.66.238.188:8081/nexus/content/repositories/jenkinslog/</url>
+</snapshotRepository>
+</distributionManagement>
+
+  
+  
 </project>
